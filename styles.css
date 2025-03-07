@@ -151,8 +151,6 @@ header {
     font-size: 16px;
 }
 
-
-
 .vagasabertas {
     display: flex;
     flex-direction: column;
@@ -161,7 +159,7 @@ header {
     gap: 25px;
 }
 
-h5 {
+.vagas-abertas {
     font-size: 14px;
     font-weight: 500;
     color: var(--main-color);
@@ -171,7 +169,7 @@ h5 {
     margin: 0 auto;
 }
 
-h3 {
+.texto-talento {
     font-size: 36px;
     font-weight: 600;
     color: var(--text1-color);
@@ -225,4 +223,49 @@ span {
     justify-content: center;
     text-align: left;
     gap: 20px;
+    padding-bottom: 55px;
 }
+
+.declaracao {
+    display: block;
+    margin: 0 auto;
+    padding: 5em 5em;
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-transparent);
+    border-radius: 8px;
+    padding: 64px;
+    gap: 16px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--main-color);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--text1-color);
+    text-align: center;
+}
+
+.nome-usuario {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text1-color);
+}
+
+.profissao {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+
+

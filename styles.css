@@ -5,6 +5,7 @@
 --text1-color: #101828;
 --main-color: #8E2424;
 --color-whiter: #FFFFFF;
+--color-transparent: #8E24240D;
 
 --font-principal: "Inter", serif;
 
@@ -13,6 +14,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -115,8 +118,8 @@ header {
     flex-direction: row;
     justify-content: center;
     gap: 32px;
-    padding: 1em;
-    bottom: 96px;
+    padding: 1em ;
+    padding-bottom: 96px;
 }
 
 .metricas {
@@ -149,3 +152,77 @@ header {
 }
 
 
+
+.vagasabertas {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-principal);
+    text-align: center;
+    gap: 25px;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--main-color);
+    background-color: #8E24240D;
+    border-radius: 16px;
+    padding: 4px 17px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--text1-color);
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+    padding-bottom: 96px;
+}
+
+.reuniao {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 55px;
+}
+
+.titulo-vaga {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text1-color);
+}
+
+.titulo-cargo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text1-color);
+    padding-bottom: 10px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.vaga {
+    display: grid;
+    width: 50%;
+    padding: 24px 24px 28px;
+    border-radius: 8px;
+    border: 1px solid #EAECF0;
+    gap: 32px;
+}
+
+.vaga-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+}

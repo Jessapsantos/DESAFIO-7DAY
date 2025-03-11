@@ -1,6 +1,6 @@
 # Desafio 7Day
 
-Este projeto foi desenvolvido como parte do evento ** #7DaysOfCode** da Alura, com o objetivo de criar uma página web interativa e visualmente atraente.
+Este projeto foi desenvolvido como parte do evento #7DaysOfCode da Alura, com o objetivo de criar uma página web interativa e visualmente atraente.
 
 ## Sobre o Desafio
 
@@ -11,7 +11,6 @@ O **Desafio 7Day** é uma iniciativa que visa aprimorar as habilidades de design
 **Cabeçalho de Navegação:** Inclui links para as seções *Home*, *Produtos*, *Recursos* e *Sobre nós*, facilitando a navegação.<br>
 <br>
 **Seção "Sobre nós":** Apresenta informações sobre o projeto e seus diferenciais.<br>
-<br>
 
 ## Tecnologias Utilizadas
 
@@ -23,7 +22,4 @@ O **Desafio 7Day** é uma iniciativa que visa aprimorar as habilidades de design
 - **styles.css:** Arquivo de estilos que define o layout e a estética da página.
 - **assets/**: Diretório contendo imagens e recursos estáticos necessários para a página, como ícones e fontes.
 
-<hr>
-
-⚠️ Ainda não é responsiva.
 

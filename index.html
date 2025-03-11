@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio-7day</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+
 </head>
 <body>
     <!--Cabeçalho-->
     <header>
-        <img src="./assets/_Button base.svg" alt="logo">
+
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu">
+            <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+        </label>
+
+        <img src="./assets/_Button base.svg" alt="logo" class="logo-img">
+
         <div class="cabecalho">
             <a href="#" class="cabecalho__botao">Home</a>
             <a href="#" class="cabecalho__botao">Produtos</a>
@@ -21,6 +30,7 @@
             <a href="#" class="entrar">Entrar</a>
             <a href="#" class="cadastrar">Cadastrar</a>
         </div>
+
     </header>
 
     <!--Sobre nós-->
@@ -64,7 +74,9 @@
             <p class="somos-uma-equipe">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
         </div>
 
+        <div class="img-reunicao">
         <img src="./assets/Image.png" alt="reuniao" class="reuniao">
+        </div>
 
         <section class="vaga-container">
             <div class="vaga-group">
@@ -120,7 +132,7 @@
     <!--Declaração-->
     <section class="declaracao">
         <div class="comentarios">
-            <h3>Veja o que nossos colaboradores falam sobre nós</h3>
+            <h3 class="comentarios-titulo">Veja o que nossos colaboradores falam sobre nós</h3>
             <h1>OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h1>
             <img src="./assets/Avatar.png" alt="">
             <span class="nome-usuario">Júlia Castro</span>
@@ -129,7 +141,7 @@
     </section>
 
     <!--Rodapé-->
-    <section class="rodape">
+    <footer class="rodape">
         <div class="rodape">
             <h1 class="acompanhe">Acompanhe as nossas oportunidades</h1>
             <p class="paragrafo-rodape">Seja o primeiro a saber quando novas vagas serão abertas!</p>
@@ -139,7 +151,7 @@
             </div>
             <p class="direitos-reservados">© 2022 OptimusTech. Todos os direitos reservados.</p>
         </div>
-    </section>
+    </footer>
     
 </body>
 </html>

@@ -1,0 +1,141 @@
+@media screen and (max-width: 1024px){
+    .sobrenos {
+        padding: 5em 5em;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    
+    .cabecalho__botao {
+        font-size: 0.9em;
+    }
+    
+    .entrar, .cadastrar {
+        font-size: 0.9em;
+    }
+
+    .logo-img {
+        width: 15%;
+        height: 15%;
+    }
+
+    .sobrenos {
+        padding: 5em 5em;
+    }
+
+
+}
+
+@media screen and (max-width: 430px) {
+
+    .cabeçalho__menu-hamburguer {
+        width: 24px;
+        height: 24px;
+        background-image: url("./assets/menu.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+    }
+
+    .logo-img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .cabecalho {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 60vw;
+    }
+
+
+    
+    .sobrenos {
+        padding: 3em 1.5em 0.5em;
+    }
+    .texto1 {
+        font-size: 0.9em;
+    }
+
+    .texto2 {
+        font-size: 2em;
+    }
+
+    .texto3 {
+        font-size: 1em;
+    }
+
+    .metricas-container {
+        display: flex;
+        flex-direction: column;
+        padding: 2em ;
+    }
+
+    .numeros {
+        font-size: 3em;
+    }
+
+    .texto-talento {
+        font-size: 2em;
+    }
+
+    .somos-uma-equipe {
+        font-size: 1em;
+        padding: 1em;
+        margin-bottom: 30px;
+
+    }
+
+    .reuniao {
+        max-width: 90%;
+    }
+
+    .vaga-group {
+        width: 80%; 
+    }
+
+    .declaracao {
+        padding: 1em 1em;
+    }
+
+    .comentarios-titulo {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .rodape {
+        padding: 3em;
+    }
+
+    .acompanhe {
+        font-size: 2em;
+    }
+
+    .rodape {
+        padding: 1em; 
+    }
+
+    .paragrafo-rodape {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    input {
+        width: 250px;
+        padding: 10px 10px;
+       
+    }
+
+    .direitos-reservados {
+        font-size: 0.8em;
+    }
+
+    .e-mail {
+        display: flex;
+        gap: 5px;
+    }
+}

@@ -19,6 +19,7 @@
 
 body {
     background-color: var(--color-whiter);
+    
 }
 
 header {
@@ -29,10 +30,18 @@ header {
     align-items: center;
 }
 
+.container__botao[type="checkbox"] {
+    display: none;
+}
+
 
 .cabecalho {
    display: flex;
    gap: 48px;
+}
+
+img {
+    max-width: 100%;
 }
 
 .cabecalho__botao {
@@ -172,10 +181,15 @@ header {
     padding-bottom: 70px;
 }
 
+.img-reunicao {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-bottom: 55px;
+}
+
 .reuniao {
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 55px;
+    max-width: 100%;
 }
 
 .vaga-container {
@@ -252,7 +266,7 @@ span {
     gap: 16px;
 }
 
-h3 {
+.comentarios-titulo {
     font-weight: 600;
     font-size: 0.875em;
     color: var(--main-color);
